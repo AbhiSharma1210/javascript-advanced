@@ -1,0 +1,1 @@
+### Some advanced javascript implementation with explanation
