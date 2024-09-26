@@ -1,0 +1,77 @@
+/* Center the content box */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#content-box {
+    background-color: #333;
+    /* Change this color to whatever you like */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Table container */
+.table-style {
+    width: 50%;
+    /* Adjust the width as needed */
+    margin: 20px auto;
+    /* Center the table */
+    border-collapse: collapse;
+    /* Merge borders */
+    background-color: #333;
+    /* Table background color */
+    color: #fff;
+    /* Text color */
+}
+
+/* Table header style */
+.table-style th {
+    background-color: #444;
+    /* Header background */
+    padding: 10px;
+    border: 1px solid #555;
+    /* Border for header */
+    text-align: center;
+    /* Center align text */
+    font-weight: bold;
+    /* Bold text */
+}
+
+/* Table cell style */
+.table-style td {
+    padding: 10px;
+    border: 1px solid #555;
+    /* Border for cells */
+    text-align: center;
+    /* Center align text */
+}
+
+/* Hover effect */
+.table-style tr:hover {
+    background-color: #555;
+    /* Row hover background color */
+}
+
+
+#start,
+#stop {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#start:hover,
+#stop:hover {
+    background-color: #777;
+    /* Slight color change on hover */
+}
