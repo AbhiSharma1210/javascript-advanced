@@ -1,0 +1,1 @@
+## Prototype in Javascript with it's practicle usage.
