@@ -19,6 +19,7 @@ randomObject.myName();
 bikes.myName();
 
 // modern syntax
+// 
 Object.setPrototypeOf(TeachingSupport, Teacher)
 
 let anotherUsername = "ChaiAurCode     "
